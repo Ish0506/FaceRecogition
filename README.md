@@ -28,8 +28,10 @@ There are two main methods used which the user needs to remember while creating 
 * mainloop() / 
 tkinter also offers access to the geometric configuration of the widgets which can organize the widgets in the parent windows. There are mainly three geometry manager classes class.
 
-pack() method:It organizes the widgets in blocks before placing in the parent widget.
-grid() method:It organizes the widgets in grid (table-like structure) before placing in the parent widget.
-place() method:It organizes the widgets by placing them on specific positions directed by the programmer.
+* pack() method:It organizes the widgets in blocks before placing in the parent widget.
+* grid() method:It organizes the widgets in grid (table-like structure) before placing in the parent widget.
+* place() method:It organizes the widgets by placing them on specific positions directed by the programmer.
+
+There are a number of widgets which you can put in your tkinter application. Some of the major widgets are explained below:
  
  
