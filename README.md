@@ -12,7 +12,6 @@ Used OpenCV for this project.
  * Pickle
  * Immutils
  ## GUI - Tkinter
-*  Python GUI – tkinter/
 Python offers multiple options for developing GUI (Graphical User Interface). Out of all the GUI methods, tkinter is the most commonly used method. It is a standard Python interface to the Tk GUI toolkit shipped with Python. Python with tkinter is the fastest and easiest way to create the GUI applications. Creating a GUI using tkinter is an easy task.
 To create a tkinter app: 
 
@@ -25,5 +24,12 @@ Importing tkinter is same as importing any other module in the Python code. Note
 import tkinter
 
 There are two main methods used which the user needs to remember while creating the Python application with GUI.
+* Tkinter.tk()
+* mainloop() / 
+tkinter also offers access to the geometric configuration of the widgets which can organize the widgets in the parent windows. There are mainly three geometry manager classes class.
+
+pack() method:It organizes the widgets in blocks before placing in the parent widget.
+grid() method:It organizes the widgets in grid (table-like structure) before placing in the parent widget.
+place() method:It organizes the widgets by placing them on specific positions directed by the programmer.
  
  
